@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Builds / Outputs
+dist/
+coverage/
+.tmp/
+
+# TypeScript cache (if added later)
+*.tsbuildinfo
+
+# Misc caches
+.pnpm-store/
+.turbo/
+
+# Optional service folders
+.vercel/
+.netlify/
+
+# Ignore lockfiles if you prefer a single manager (uncomment as needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
