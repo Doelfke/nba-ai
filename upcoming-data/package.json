@@ -1,0 +1,20 @@
+{
+  "name": "upcoming-data",
+  "version": "1.0.0",
+  "description": "CLI for downloading upcoming NBA games and injury reports.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "fetch": "node src/index.js"
+  },
+  "keywords": [
+    "nba",
+    "schedule",
+    "injuries",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
