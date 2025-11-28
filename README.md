@@ -6,11 +6,11 @@ An AI-powered NBA data platform that uses vector search and LLMs to answer quest
 
 ### `/historical-data`
 
-Fetches and stores historical NBA game data (2024-2025 seasons) from the NBA API. Outputs JSON files used for vectorization.
+Fetches and stores historical NBA game data from the NBA API. Outputs JSON files used for vectorization.
 
 ### `/upcoming-data`
 
-Fetches upcoming/scheduled NBA games from the NBA API. Outputs JSON files for upcoming game information.
+Fetches upcoming NBA games from the NBA API and player injury data from ESPN. Outputs a JSON file.
 
 ### `/vectorize-data`
 
